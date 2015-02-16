@@ -9,7 +9,7 @@ include 'header.php';
 
         <div class="row well table-responsive">
             <div class="text-center">
-                <a href="addCar.php">
+                <a href="addCarForm.php">
                 <button type="button" class="btn btn-primary" data-toggle="modal" id="add-car-button">
                     Add new car
                 </button></a>
