@@ -1,0 +1,267 @@
+body {
+    background-color: whitesmoke;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.navbar-padding {
+    padding-top: 111px;
+}
+
+.search-bar-size{
+    max-width:  600px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+#footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  //background-color: #efefef;
+  text-align: center;
+}
+
+#g20realty-brand {
+    color: white;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-size:x-large;
+}
+
+.about-us {
+    position: absolute;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 100%;
+    width:  100%;
+}
+
+.mainpage-search {
+  //  background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 100%;
+    width:  100%;
+}
+
+.transparent-panel {
+    background-color: rgba(255,255,255,0.5);
+}
+
+#mainpage-search-btn-img {
+    position: absolute;
+    bottom: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.mainpage-content {
+    position: absolute;
+    width:  100%;
+    height: 100%;
+    top:    100%;
+}
+
+.adv-search-span {
+    float:  right;
+}
+
+#nav-bar-selected{
+  color: #00FFFF;
+}
+
+@media (max-width: 767px) {
+    .navbar-padding {
+        padding-top: 70px;
+    }
+    .mainpage-search {
+        padding-top: 70px;
+    }
+  
+  .mainpage-search {
+      background-image: none;
+      position: relative;
+      height: 84px;
+  }
+  
+  .mainpage-search-panel {
+      margin-top: 20px;
+  }
+  
+  .mainpage-content {
+      position: relative;
+  }
+  
+  #mainpage-search-btn-img {
+    display: none;
+  }
+}
+
+.form-group-bottom-margin-override {
+    margin-bottom: 0px !important;
+}
+
+.btn-custom {
+  background-color: #27a1de;
+  border-color: #27a1de;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background-color: #1f93cc;
+  border-color: #1c83b6;
+}
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #27a1de;
+  border-color: #27a1de;
+}
+.carousel-inner {
+    max-height: 400px;
+}
+.carousel-inner .item {
+    max-height: 400px;
+}
+.carousel-inner .item img {
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+.search-text{
+  color:#000000;
+  text-align:center;
+}
+
+.main-body {
+    padding-top: 101px;
+}
+.horizontal-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.no-float {
+    float: none;
+}
+//.horizontal-scroll>li.no-float {
+//    margin: 0 -1px;
+//}
+.property-preview {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 358px;
+}
+.favicon {
+    height: 40px;
+    position: absolute;
+    z-index: 999;
+    right: 15px;
+    top: 10px;
+}
+.favicon > img {
+    height: inherit;
+}
+.property-preview > div > .carousel > .carousel-inner > .item > img {
+    height: 200px;
+}
+.property-sale-type {
+    //background-color: rgb(204, 204, 0);
+    border-radius: 4px;
+    color: green;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 3px 5px;
+    font-size: 16px;
+    float: right;
+}
+.property-sold {
+    border-radius: 4px;
+    color: red;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 3px 5px;
+    font-size: 16px;
+    float: right;
+}
+
+#user-submit, #user-cancel, #realtor-submit, #realtor-cancel #admin-submit, #admin-cancel{
+    width: 50%;
+}
+
+.ribbon {
+  background-color: #a00;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  left: -50px;
+  top: 12px;
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+  -webkit-box-shadow: 0 0 10px #888;
+     -moz-box-shadow: 0 0 10px #888;
+          box-shadow: 0 0 10px #888;
+  color: white;
+  text-align: center;
+  padding: 5px 50px;
+  font-weight: bold;
+  z-index: 999;
+}
+.thumbnail {
+    overflow: hidden;
+}
+#realtor-image-edit{
+    position: absolute;
+    left: 40%;
+    bottom: -44px;
+    background-color: rgba(255,255,255,0.6);
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+#realtor-image-container{
+    position: relative;
+    overflow: hidden;
+    max-width: 360px; 
+    margin: 0 auto 20px;
+}
+.tag-list {
+    list-style: none;
+    float:  left;
+    padding: 0;
+}
+
+.tag-list > li {
+    margin: 3px;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+}
