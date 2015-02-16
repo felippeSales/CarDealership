@@ -12,6 +12,12 @@ include 'header.php';
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#add-sales-modal">
                     Add new sale
                 </button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#add-sales-modal">
+                    Edit sale
+                </button>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#add-sales-modal">
+                    Delete sale
+                </button>
             </div>
 
             <h3>List of sales:</h3>

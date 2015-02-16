@@ -9,6 +9,7 @@
         <title>Car Sales Tracker</title>
 
         <link href="css/main.css" rel="stylesheet">
+        <script src="js/main.js"></script>
         
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
