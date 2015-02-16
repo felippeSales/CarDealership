@@ -36,7 +36,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php">Assignment</a>
+                    <a class="navbar-brand" href="#">Car Dealership</a>
                 </div>
 
                 <div id="navbar" class="navbar-collapse collapse">
