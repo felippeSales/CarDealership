@@ -1,5 +1,6 @@
 <?php
 include 'header.php';
+include 'api.php';
 ?>
 
 <div class='container main-body'>
@@ -36,6 +37,22 @@ include 'header.php';
                 <th>Sold</th>
                 </thead>
                 <tbody id="cars-table-body">
+                    <?php
+                        $cars = getCars();
+                        
+                        foreach ($cars as $car){
+                            echo "<tr>";
+                            echo "<td>" . $car["id"] . "</td>"; 
+                            echo "<td>" . $car["year_built"] . "</td>"; 
+                            echo "<td>" . $car["model_name"] . "</td>";
+                            echo "<td>" . $car["mileage"] . "</td>";
+                            echo "<td>" . $car["max_speed"] . "</td>";
+                            echo "<td>" . $car["description"] . "</td>";
+                            echo "<td>" . $car["sold_date"] . "</td>"; 
+                            echo "</tr>";
+                        }
+                    
+                    ?>
 
                 </tbody>
             </table>
